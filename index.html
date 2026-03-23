@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SASS Demo</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <h1>SASS + JavaScript Demo — Instructor Solution</h1>
+
+  <button id="showAlertBtn" class="primary-btn">Show Alert</button>
+  <button id="toggleThemeBtn" class="secondary-btn">Toggle Dark Mode</button>
+  <div id="alertContainer"></div>
+
+  <div class="card-demo">
+    <h3>This is a card component styled with a mixin.</h3>
+    <p>Cards share rounded corners, padding, and shadow via the <code>@include card()</code> mixin.</p>
+  </div>
+
+  <div class="flex-demo">
+    <button class="primary-btn">One</button>
+    <button class="primary-btn">Two</button>
+    <button class="danger-btn">Three</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
